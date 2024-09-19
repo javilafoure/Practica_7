@@ -19,10 +19,10 @@ input{
 .boton{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
-    gap: 6px;
-    padding: 0;
+    gap: 10px;
+    
     
 }
 button{
@@ -35,7 +35,7 @@ button{
     flex-wrap: wrap;
     border: none;
     border-radius: 80px;
-    /* padding: 0; */
+    
 }
 .btnIgual{
     width: 100%;
@@ -54,7 +54,12 @@ button{
     }
 
     button {
+        
         width: 60px; 
         height: 40px;
+    }
+    .boton{
+        justify-content: center;
+        gap: 6px;
     }
 }
