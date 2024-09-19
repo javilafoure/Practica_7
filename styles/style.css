@@ -20,6 +20,7 @@ input{
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
+    
 }
 button{
     height: 40px;
@@ -32,4 +33,20 @@ button{
     border: none;
     border-radius: 80px;
     
-} 
+}
+
+@media (max-width: 768px) {
+    .cuerpo {
+        width: 320px; 
+        gap: 15px;
+    }
+    
+    input {
+        width: 280px;
+    }
+
+    button {
+        width: 60px; 
+        height: 40px;
+    }
+}
