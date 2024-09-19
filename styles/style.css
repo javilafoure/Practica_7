@@ -10,7 +10,6 @@
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    /* flex-wrap: wrap; */
     gap: 20px;
 }
 input{
@@ -34,7 +33,9 @@ button{
     flex-wrap: wrap;
     border: none;
     border-radius: 80px;
-    
+}
+.btnIgual{
+    width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -42,9 +43,7 @@ button{
         width: 320px; 
         gap: 15px;
     }
-    .btnIgual{
-        width: 100%;
-    }
+    
     
     input {
         width: 280px;
