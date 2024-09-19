@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     padding: 40px;
+    width: 100vw;
 }
 .cuerpo{
     width: 400px;
@@ -9,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 20px;
 }
 input{
@@ -19,6 +20,7 @@ input{
 .boton{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 6px;
     
 }
@@ -40,9 +42,13 @@ button{
         width: 320px; 
         gap: 15px;
     }
+    .btnIgual{
+        width: 100%;
+    }
     
     input {
         width: 280px;
+        margin: 0 auto;
     }
 
     button {
